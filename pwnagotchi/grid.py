@@ -1,6 +1,5 @@
 import subprocess
 import requests
-import json
 import logging
 
 import pwnagotchi
