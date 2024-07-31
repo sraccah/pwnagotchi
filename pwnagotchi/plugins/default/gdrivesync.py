@@ -26,8 +26,6 @@ class GdriveSync(plugins.Plugin):
         self.status = StatusFile('/root/.gdrive-backup')
         self.backup = True
         self.backupfiles = [
-            '/root/brain.nn',
-            '/root/brain.json',
             '/root/.api-report.json',
             '/root/handshakes',
             '/root/peers',

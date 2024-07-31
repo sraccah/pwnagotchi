@@ -156,7 +156,6 @@ def main():
         display.on_starting()
         display.update()
         emotions.append(display.get_image())
-        display.on_ai_ready()
         display.update()
         emotions.append(display.get_image())
         display.on_normal()

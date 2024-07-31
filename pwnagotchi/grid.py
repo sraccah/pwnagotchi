@@ -61,16 +61,10 @@ def closest_peer():
 
 
 def update_data(last_session):
-    brain = {}
-    try:
-        with open('/root/brain.json') as fp:
-            brain = json.load(fp)
-    except:
-        pass
     enabled = [name for name, options in pwnagotchi.config['main']['plugins'].items() if
                'enabled' in options and options['enabled']]
     language = pwnagotchi.config['main']['lang']
-    ai = pwnagotchi.config['ai']['enabled']
+    ai = "No AI"
 
     data = {
         'ai': ai,
