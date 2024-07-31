@@ -129,7 +129,6 @@ class Agent(Client, Automata, AsyncAdvertiser, AsyncTrainer):
                 time.sleep(1)
 
     def start(self):
-        self.start_ai()
         self._wait_bettercap()
         self.setup_events()
         self.set_starting()
