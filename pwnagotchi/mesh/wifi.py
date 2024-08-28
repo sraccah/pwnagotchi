@@ -1,6 +1,5 @@
 NumChannels = 177
 
-
 def freq_to_channel(freq):
     if freq <= 2472:
         return int(((freq - 2412) / 5) + 1)
