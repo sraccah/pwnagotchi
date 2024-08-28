@@ -18,6 +18,10 @@ main.custom_plugin_repos = [
 
 main.custom_plugins = "/usr/local/share/pwnagotchi/custom-plugins/"
 
+main.plugins.auto-tune.enable = true
+main.plugins.auto-tune.show_hidden = false
+main.plugins.auto-tune.show_interactions = false
+
 main.plugins.auto-update.enabled = true
 main.plugins.auto-update.install = true
 main.plugins.auto-update.interval = 1
