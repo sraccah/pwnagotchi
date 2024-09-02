@@ -203,18 +203,18 @@ msgstr "Oups, quelque chose s'est mal passé... Redémarrage..."
 
 #, python-brace-format
 msgid "Uploading data to {to} ..."
-msgstr ""
+msgstr "Téléversement sur {to}..."
 
 #, python-brace-format
 msgid "Downloading from {name} ..."
-msgstr "Je fais la sieste pendant {name}..."
+msgstr "Téléchargement de {name}..."
 
 #, python-brace-format
 msgid "Kicked {num} stations\n"
 msgstr "{num} stations kick\n"
 
 msgid "Made >999 new friends\n"
-msgstr "A fait >999 nouve(l/aux) ami(s)\n"
+msgstr "A fait >999 nouveaux amis\n"
 
 #, python-brace-format
 msgid "Made {num} new friends\n"
